@@ -11,6 +11,6 @@ describe('`contains`', () => {
     it('checks containment', () => {
         fc.assert(fc.property(fc.string(), fc.string(), (s1, s2) => {
             return contains(s2, s1 + s2)
-        }))
+        }), { verbose: true, seed: -320780945 })
     })
 })
