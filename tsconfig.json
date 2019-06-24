@@ -2,7 +2,7 @@
     "compilerOptions": {
         "esModuleInterop": true,
         "module": "system",
-        "noImplicitAny": true,
+        "noImplicitAny": false,
         "outDir": "build"
     },
     "include": [
